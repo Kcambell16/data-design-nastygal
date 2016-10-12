@@ -19,9 +19,9 @@
 		<p> Age: 18-37</p>
 		<p> Profession:Creative Professional</p>
 		<p> Technology: Macbook pro user. Uses 13 inch macbook pro not for power but because its trendys. Is also an iphone user with verizon service for reliability only having 10 gb of data to use and has apple tv at home. </p>
-		<p></p>
-		<p></p>
-		<p></p>
+		<p> Attitude and Behaviors: </p>
+		<p> Frustrations and Needs: </p>
+		<p> Goals: </p>
 
 		<!-- Use Case Section-->
 		<section>
