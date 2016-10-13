@@ -37,19 +37,19 @@
 
 		<h1> BlogPost</h1>
 		<ul>
-			<li>Blog post ID (Primary Key)</li>
-			<li>Blog post title </li>
-			<li>Blog post content </li>
-			<li>Blog post date</li>
+			<li>blogPostIdAuthorId (Foreign key) (Primary Key)</li>
+			<li>blogPosttitle </li>
+			<li>blogPostContent </li>
+			<li>blogPostDate</li>
 		</ul>
 		<!-- Second Entity-->
 
-		<h1> Blog Author</h1>
+		<h1> Author</h1>
 		<ul>
-		<li>Blog Post Id (Primary key)</li>
-		<li>Author fist name</li>
-		<li>Author last name</li>
-		<li>Author email</li>
+		<li>authorId (Primary key)</li>
+		<li>authorFirstName</li>
+		<li>authorLastName</li>
+		<li>authorEmailAddress</li>
 		</ul>
 	</body>
 </html>
