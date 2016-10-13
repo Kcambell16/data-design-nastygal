@@ -50,6 +50,7 @@
 		<li>authorFirstName</li>
 		<li>authorLastName</li>
 		<li>authorEmailAddress</li>
+			<li>authorBlogPostDate</li>
 		</ul>
 	</body>
 </html>
