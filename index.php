@@ -19,7 +19,7 @@
 		<p> Age: 18-37</p>
 		<p> Profession:Creative Professional</p>
 		<p> Technology: Macbook pro user. Uses 13 inch macbook pro not for power but because its trendys. Is also an iphone user with verizon service for reliability only having 10 gb of data to use and has apple tv at home using a smart TV for live streaming capabilities. </p>
-		<p> Attitude and Behaviors: Ambitious and driven very busy. Focused on establishing self and or newly settled into a career of choice. Time is limited but stopping to smell the roses is of the most importance. Always multitasking in an order to work hard and play hard. Financial priorities are focued on creating a happy life getting the best of what Lisa can afford. Lisa is a socialite in her own right. She is a social media maven and loves meeting new people. In her spare time she is always in search of a new adventure. Looking good and staying trendy is very important. Often time she chooses clothing because she knows she will be approached </p>
+		<p> Attitude and Behaviors: Ambitious and driven very busy. Focused on establishing self and or newly settled into a career of choice. Time is limited but stopping to smell the roses is of the most importance. Always multitasking in an order to work hard and play hard. Financial priorities are focued on creating a happy life getting the best of what Lisa can afford. Lisa is a socialite in her own right. She is a social media maven and loves meeting new people. In her spare time she is always in search of a new adventure. Looking good and staying trendy is very important. Often time she uses her clothes as coversation starter.Her body is her temple she wants the best inside and out.</p>
 		<p> Frustrations and Needs: </p>
 		<p> Goals: </p>
 
