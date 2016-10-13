@@ -37,9 +37,9 @@
 
 		<h1> BlogPost</h1>
 		<ul>
-			<li>blogPostIdAuthorId (Foreign key) (Primary Key)</li>
-			<li>blogPosttitle </li>
-			<li>blogPostContent </li>
+			<li>blogPostIdAuthorId (fk 1-to-N) (Primary Key)</li>
+			<li>blogPostTitleAuthorId (fk 1-to-N)</li>
+			<li>blogPostContentAuthorId (fk 1-to-N) </li>
 			<li>blogPostDate</li>
 		</ul>
 		<!-- Second Entity-->
