@@ -36,28 +36,27 @@
 		<!--entity attribute breakdown nastygal-->
 
 		<h1> BlogPost</h1>
+		<h4>(1)</h4>
 		<ul>
 			<li>blogPostIdAuthorId (fk 1-to-N) (Primary Key)</li>
-			<li>blogPostTitleAuthorId (fk 1-to-N)</li>
-			<li>blogPostContentAuthorId (fk 1-to-N) </li>
+			<li>blogPostTitleAuthorName(fk 1-to-N)</li>
+			<li>blogPostContentAuthorEmail(fk 1-to-N) </li>
 			<li>blogPostDate</li>
 		</ul>
 		<!-- Second Entity-->
 
 		<h1> Author</h1>
+		<h4>(N)</h4>
 		<ul>
 		<li>authorId (Primary key)</li>
 		<li>authorFirstName</li>
 		<li>authorLastName</li>
 		<li>authorEmailAddress</li>
-			<li>authorBlogPostDate (fk 1-to-N)</li>
 		</ul>
 			<h1>Subscription</h1>
 		<ul>
 			<li>subscriptionId (Primary Key)</li>
 			<li>subscriptionEmailAddress</li>
-			<li>subscriptionTerms</li>
-			<li>subscriptionPolicy</li>
 		</ul>
 	</body>
 </html>
