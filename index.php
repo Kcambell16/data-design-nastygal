@@ -2,6 +2,7 @@
 <html lang="en">
 	<head>
 		<meta charset="UTF-8">
+		<link href="css/stylesheet.css" rel="stylesheet" type="text/css">
 
 		<!--beginning -->
 		<title>
@@ -9,10 +10,11 @@
 		</title>
 		<!-- image before heading-->
 	</head>
-	<header>
-		<img src="img/nastygalresized.jpg" alt="thenastygal">
-	</header>
+
 	<body>
+		<header>
+			<img src="img/nastygalresized.jpg" alt="thenastygal">
+		</header>
 
 		<!--this is the persona section -->
 		<h1>The NastyGal &#10084</h1>
