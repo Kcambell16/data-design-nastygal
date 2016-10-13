@@ -26,7 +26,7 @@
 
 		<!-- use case section-->
 		<section>
-		<h1> Use Case </h1>
+		<h1>Use Case</h1>
 
 			<!--narrative style-->
 			<p> Lisa finds the most incredible pieces. What excitment this brings, then there comes the delimma! What will I wear with this. She needs to simply find styling inspiration quickly. There is no better way than to visit the Nasty Galaxy section on Nastgal.com. This is where the currators of all the pieces are able to talk about the inspiration behind how they styled these unique one of a kind pieces. The Nasty Gal can also get what are often crazy funny and unique stories behind acquiring and item too. Oh the things we here at Nasty Gal goes through to offer the best of the best to you Gals' out there. After a Nasty Gal has recieved her package she has waited no more than 5-7 days for. After a long day of work or school she enjoys the pleasure of opening her package and seeing her item look better than even what she couldve expected. With in 5 to 10 mins of viewing her new item and trying it on she is now ready to log in to Nastygal and see all the ways it has been styled. She log on to Nastygal.com and visit the blog spot Nasty Galaxy. Here Lisa finds inspiration from currator photo and talks as well as keeping up with the latest musics and cultural trends.
