@@ -54,7 +54,10 @@
 		</ul>
 			<h1>Subscription</h1>
 		<ul>
-			<li></li>
+			<li>subscriptionId (Primary Key)</li>
+			<li>subscriptionEmailAddress</li>
+			<li>subscriptionTerms</li>
+			<li>subscriptionPolicy</li>
 		</ul>
 	</body>
 </html>
