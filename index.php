@@ -33,5 +33,14 @@
 		</section>
 		<h1>Interaction Flow</h1>
 		<p>Lisa's interaction flow is very simple and intuitive in nature. Lisa simply natvigates to Nastygal.com webpage and in the upper left corner lisa is able to find a tab that read Nasty Galaxy. Once Lisa is under this section she has several option which can be revealed by simply hovering over the heading Nasty Galaxy. The options available are style, music, culture and lastly girlboss. Although Lisa does visit the other sections from time to time her main interest is the style section. In this section there are several curated collections of items soled on the website. Lisa then choose the picture that inspires her the most. What she finds are several pictures of the items that are highlighted and other items they were either paired with for styling purpourses or simply visual emphasis.</p>
+		<!--entity attribute breakdown nastygal-->
+
+		<h1> Entities & Attributes </h1>
+		<ul>
+			<li></li>
+			<li></li>
+			<li></li>
+			<li></li>
+		</ul>
 	</body>
 </html>
