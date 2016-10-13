@@ -43,10 +43,13 @@
 			<li>Blog post date</li>
 		</ul>
 		<!-- Second Entity-->
+
 		<h1> Blog Author</h1>
+		<ul>
 		<li>Blog Post Id (Primary key)</li>
 		<li>Author fist name</li>
 		<li>Author last name</li>
 		<li>Author email</li>
+		</ul>
 	</body>
 </html>
