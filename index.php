@@ -50,7 +50,11 @@
 		<li>authorFirstName</li>
 		<li>authorLastName</li>
 		<li>authorEmailAddress</li>
-			<li>authorBlogPostDate</li>
+			<li>authorBlogPostDate (fk 1-to-N)</li>
+		</ul>
+			<h1>Subscription</h1>
+		<ul>
+			<li></li>
 		</ul>
 	</body>
 </html>
