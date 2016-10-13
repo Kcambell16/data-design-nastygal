@@ -9,10 +9,12 @@
 		</title>
 		<!-- image before heading-->
 	</head>
+	<header>
+		<img src="img/nastygalresized.jpg" alt="thenastygal">
+	</header>
 	<body>
 
 		<!--this is the persona section -->
-		<img src="img/nastygalresized.jpg" alt="thenastygal">
 		<h1>The NastyGal &#10084</h1>
 <!-- dataDesignProject-->
 
