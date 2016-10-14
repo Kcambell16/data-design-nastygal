@@ -63,19 +63,21 @@
 		<li>authorLastName</li>
 		<li>authorEmailAddress</li>
 		</ul>
+		<!-- subscriptionRelationship-->
 
 		<h1>Subscription</h1>
-
 		<ul>
 			<li>subscriptionId (Primary Key)</li>
 			<li>subscriptionEmailAddress</li>
+			</ul>
 
 			<h1>Relationships</h1>
-
 			<ul>
 				<li>One author can create many</li>
-				<li>BlogPosts (1-to-N)</li>
+				<li>blogPost (1-to-N)</li>
+				<li>blogPostTitle (1-to-N)</li>
+				<li>blogPostContent (1-to-N)</li>
+				<li>blogPostDate (1-to-N)</li>
 			</ul>
-		</ul>
 	</body>
 </html>
