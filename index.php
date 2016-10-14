@@ -46,9 +46,10 @@
 
 		<h4>(1)</h4>
 		<ul>
-			<li>blogPostIdAuthorId (fk 1-to-N) (Primary Key)</li>
-			<li>blogPostTitleAuthorName(fk 1-to-N)</li>
-			<li>blogPostContentAuthorEmail(fk 1-to-N) </li>
+			<li>blogPostId (PK)</li>
+			<li>blogPostTitle</li>
+			<li>blogPostContent </li>
+			<li>blogPostAuthorId (FK)</li>
 			<li>blogPostDate</li>
 		</ul>
 		<!-- Second Entity-->
@@ -63,10 +64,18 @@
 		<li>authorEmailAddress</li>
 		</ul>
 
-			<h1>Subscription</h1>
+		<h1>Subscription</h1>
+
 		<ul>
 			<li>subscriptionId (Primary Key)</li>
 			<li>subscriptionEmailAddress</li>
+
+			<h1>Relationships</h1>
+
+			<ul>
+				<li>One author can create many</li>
+				<li>BlogPosts (1-to-N)</li>
+			</ul>
 		</ul>
 	</body>
 </html>
