@@ -6,4 +6,6 @@ CREATE TABLE blogpost (blogPostId INT UNSIGNED AUTO_INCREMENT NOT NULL,
 	blogPostAuthorID VARCHAR(32) NOT NULL,
 	blogPostDate VARCHAR(8) NOT NULL,
 	INDEX (blogPostId), FOREIGN KEY (blogPostAuthorID) REFERENCES blogpost(blogPostId),PRIMARY KEY (blogPostId)
-);
+);CREATE TABLE Author (authorId INT UNSIGNED AUTO_INCREMENT NOT NULL,
+	authorEmailAddress VARCHAR(120) NOT NULL, authorLastName VARCHAR(200) NOT NULL, authorFirstName VARCHAR(200) NOT NULL,INDEX (authorId),PRIMARY KEY (authorId)
+)
