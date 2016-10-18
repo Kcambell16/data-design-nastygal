@@ -17,7 +17,7 @@ CREATE TABLE blogpost
 	blogPostId INT UNSIGNED AUTO_INCREMENT NOT NULL,
 	blogPostTitle VARCHAR(50) NOT NULL,
 	blogPostContent VARCHAR(350) NOT NULL,
-	blogPostAuthorId VARCHAR(32) NOT NULL,
+	blogPostAuthorId INT UNSIGNED NOT NULL,
 	blogPostDate DATETIME NOT NULL,
 	INDEX (blogPostId),
 	INDEX (blogPostAuthorId),
