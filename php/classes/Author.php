@@ -15,6 +15,11 @@ class Author{
 private $authorId;
 	/**
 	 * id of the author that created this blog post; this is the foreign key
+	 * @var int $authorFirstName
+	 **/
+	private $authorFirstName;
+	/**
+	 * actual first name of the author who create blog post
 	 *
 	 **/
 }
