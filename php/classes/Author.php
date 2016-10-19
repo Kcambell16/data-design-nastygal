@@ -19,8 +19,39 @@ private $authorId;
 	 **/
 	private $authorFirstName;
 	/**
-	 * actual first name of the author who create blog post
+	 * actual first name of the author who created blog post
+	 * @var int $authorLastName
+	 **/
+	private $authorLastName;
+	/**
+	 * actual last name of author who created blog post
+	 * @var int $authorEmailAddress
+	 **/
+	private $authorEmailAddress;
+	/**
+	 * email address for author of blog post
 	 *
 	 **/
+	/** Constructor Goes here
+	 *
+	 **/
+	/**
+	 * accessor method for author information
+	 *
+	 * @return string value of author information
+	 **/
+	public function getAuthorId() {
+		return ($this->authorId);
+	}
+		public function getAuthorFirstName() {
+			return ($this->authorFirstName);
+		}
+		public function getAuthorLastName(){
+			return ($this->authorLastName);
+		}
+		public function getAuthorEmailAddress(){
+			return ($this->authorEmailAddress);
+		}
 }
+
 
