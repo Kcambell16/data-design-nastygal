@@ -43,6 +43,23 @@ private $authorId;
 	public function getAuthorId() {
 		return ($this->authorId);
 	}
+
+	/**
+	 * mutator method for author id
+	 *
+	 * @param int $newAuthorId new value of profile id
+	 * @throws UnexpectedValueException if $newAuthorId is not an integer
+	 **/
+	public function setAuthorId($newAuthorId) {
+		// verify the author id is valid
+		$newAuthorId = filter_var($newAuthorId, FILTER_VALIDATE_INT);
+		if($newAuthorId === false) {
+			throw(new UnexpectedValueException("author id is not a valid integer"));
+		}
+
+		//convert and store author id
+		$this->authorFirstName = intval($newAuthorId);
+	}
 		public function getAuthorFirstName() {
 			return ($this->authorFirstName);
 		}
