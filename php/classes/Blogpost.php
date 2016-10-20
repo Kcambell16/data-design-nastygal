@@ -57,6 +57,32 @@ class Blogpost {
 			$this->blogPostId - intval($newBlogPostId);
 		}
 
+		/**
+		 * accessor method for blost post author id
+		 *
+		 * @return int value of blog post author id
+		 **/
+		public function getBlogPostAuthorId() {
+			return($this->getBlogPostAuthorId);
+		}
+
+		/** mutator method for blog post author id
+		 *
+		 * @param int $newBlogPostAuthorId new value of the blog post author id
+		 * @throw UnexpectedValueException if $newBlogPostAuthorId is not a integer
+		 **/
+		public function setBlogPostAuthorId
+		// verify the blog post author id is valid
+		($newBlogPostAuhtorId) {
+			$newBlogPostAuhtorId = filter_var($newBlogPostAuhtorId, FILTER_VALIDATE_INT);
+			IF($newBlogPostAuhtorId === false) {
+				throw (new UnexpectedValueException("blog post author id is not a valid interger"));
+
+				//convert and store the blog post author id
+				$this->blogPostAuthorId - intval($newBlogPostAuhtorId);
+			}
+		}
+
 
 	}
 

@@ -60,13 +60,64 @@ private $authorId;
 		//convert and store author id
 		$this->authorFirstName = intval($newAuthorId);
 	}
-		public function getAuthorFirstName() {
+
+	/**
+	 * accessor method for author first name
+	 *
+	 * @return string value of first name
+	 **/
+	public function getAuthorFirstName() {
 			return ($this->authorFirstName);
 		}
-		public function getAuthorLastName(){
+
+	/**
+	 * mutator method for first name
+	 *
+	 * @param string $newAuthorFirstName new value of first name
+	 * @throws UnexpectedValueException if $newAuthorFirstName is not valid
+	 **/
+	public function setAuthorFirstName($newAuthorFirstName) {
+		// verify the author first name is valid
+		$newAuthorFirstName = filter_var($newAuthorFirstName, FILTER_SANITIZE_STRING);
+		if($newAuthorFirstName === false) {
+			throw(new UnexpectedValueException("author first name is not valid string "));
+		}
+
+		//store the authors first name
+		$this->authorFirstName = $newAuthorFirstName;
+	}
+	/**
+	 * accessor method for author last name
+	 *
+	 * @return string value of last name
+	 **/
+	public function getAuthorLastName(){
 			return ($this->authorLastName);
 		}
-		public function getAuthorEmailAddress(){
+
+	/**
+	 * mutator method for last name
+	 *
+	 * @param string $newAuthorLastName new value of last name
+	 * @throws UnexpectedValueException if $newAuthorLastName is not valid
+	 **/
+	public function setAuthorLastName($newAuhtorLastName) {
+		//verify the authors last name is valid
+		$newAuhtorLastName = filter_var($newAuhtorLastName,FILTER_SANITIZE_STRING);
+		if($newAuhtorLastName === false) {
+			throw(new UnexpectedValueException("author last name is not a valid string"));
+
+			//store the authors last name
+			$this->authorLastName = $newAuhtorLastName;
+		}
+	}
+
+	/**
+	 * accessor method for last name
+	 *
+	 * @return string value of last name
+	 **/
+	public function getAuthorEmailAddress(){
 			return ($this->authorEmailAddress);
 		}
 }
