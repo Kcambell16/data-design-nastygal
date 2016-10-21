@@ -106,9 +106,6 @@ private $authorId;
 		$newAuhtorLastName = filter_var($newAuhtorLastName,FILTER_SANITIZE_STRING);
 		if($newAuhtorLastName === false) {
 			throw(new UnexpectedValueException("author last name is not a valid string"));
-
-			//store the authors last name
-			$this->authorLastName = $newAuhtorLastName;
 		}
 	}
 
@@ -120,6 +117,30 @@ private $authorId;
 	public function getAuthorEmailAddress(){
 			return ($this->authorEmailAddress);
 		}
+
+	/**
+	 *mutator method for author email address
+	 *
+	 * @param string $newAuthorEmailAddress new value of author email address
+	 * @throws UnexpectedValueException if $newAuthorEmailAddress is not valid
+	 **/
+	public function setAuthorEmailAddress(string $newAuthorEmailAddress) {
+		//verify the author email address is valid
+		$newAuthorEmailAddress = trim($newAuthorEmailAddress);
+		$newAuthorEmailAddress = filter_var($newAuthorEmailAddress, FILTER_SANITIZE_EMAIL, FILTER_FLAG_NO_ENCODE_QUOTES);
+		if(empty($newAuthorEmailAddress) === true) {
+			throw(new \InvalidArgumentException("author email address is not a valid string"));
+		}
+
+		// verify the author email address will fit in the database
+		if(strlen($newAuthorEmailAddress) > 250) {throw(new \RangeException("email address too large"));
+		}
+
+		//store the author email address
+		$this->authorEmailAddress = $newAuthorEmailAddress;
+
+	}
+
 }
 
 
