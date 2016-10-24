@@ -40,6 +40,9 @@ private $authorId;
 	 * @param string $newAuthorEmailAddress new value of author email address
 	 * @throws UnexpectedValueException if $newAuthorId is not an integer
 	 **/
+	public function __construct($newAuthorId, $newAuthorFirstName, $newAuthorLastName, $newAuthorEmailAddress) {
+	}
+
 	/**
 	 * accessor method for author information
 	 *
