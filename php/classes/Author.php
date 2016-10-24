@@ -101,10 +101,10 @@ private $authorId;
 	 * @param string $newAuthorLastName new value of last name
 	 * @throws UnexpectedValueException if $newAuthorLastName is not valid
 	 **/
-	public function setAuthorLastName($newAuhtorLastName) {
+	public function setAuthorLastName($newAuthorLastName) {
 		//verify the authors last name is valid
-		$newAuhtorLastName = filter_var($newAuhtorLastName,FILTER_SANITIZE_STRING);
-		if($newAuhtorLastName === false) {
+		$newAuthorLastName = filter_var($newAuthorLastName,FILTER_SANITIZE_STRING);
+		if($newAuthorLastName === false) {
 			throw(new UnexpectedValueException("author last name is not a valid string"));
 		}
 	}
