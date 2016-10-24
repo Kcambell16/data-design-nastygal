@@ -32,8 +32,13 @@ private $authorId;
 	 * email address for author of blog post
 	 *
 	 **/
-	/** Constructor Goes here
+	/** Constructor for Author
 	 *
+	 * @param int $newAuthorId new value of profile id
+	 * @param string $newAuthorFirstName new value of first name
+	 * @param string $newAuthorLastName new value of last name
+	 * @param string $newAuthorEmailAddress new value of author email address
+	 * @throws UnexpectedValueException if $newAuthorId is not an integer
 	 **/
 	/**
 	 * accessor method for author information
