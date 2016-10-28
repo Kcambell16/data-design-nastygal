@@ -12,7 +12,7 @@ class Author{
 	 * id for this author; this is the primary key
 	 * @var int $authorId
 	 **/
-private $authorId;
+	private $authorId;
 	/**
 	 * id of the author that created this blog post; this is the foreign key
 	 * @var int $authorFirstName
@@ -39,8 +39,33 @@ private $authorId;
 	 * @param string $newAuthorLastName new value of last name
 	 * @param string $newAuthorEmailAddress new value of author email address
 	 * @throws UnexpectedValueException if $newAuthorId is not an integer
+	 * @throws UnexpectedValueException if $newAuthorFirstName is not valid
+	 * @throws UnexpectedValueException if $newAuthorLastName is not valid
+	 * @throws UnexpectedValueException if $newAuthorEmailAddress is not valid
 	 **/
-	public function __construct($newAuthorId, $newAuthorFirstName, $newAuthorLastName, $newAuthorEmailAddress) {
+	public function __construct($newAuthorId, $newAuthorFirstName, $newAuthorLastName, $newAuthorEmailAddress, $exception) {
+		try {
+			$this->setAuthorEmailAddress($newAuthorEmailAddress);
+				$this->setAuthorId($newAuthorId);
+			$this->authorLastName($newAuthorLastName);
+			$this->authorFirstName($newAuthorFirstName);
+			$this->authorId($newAuthorId);
+		} catch(\InvalidArgumentException $invalidArgument)	{
+			// rethrow the exception to the caller
+			throw(new \InvalidArgumentException($invalidArgument->getFile(), 0, $invalidArgument));
+		} catch(\RangeException $range)	{
+			// rethrow the exception to the caller
+			throw(new \RangeException($range->getFile(),	0,	$range));
+		}catch(\TypeError $error){
+			// rethrow the exception to the caller
+			throw(new \TypeError($typeError->getfile(),	0,	$typeError));
+		}catch(\Exception $exception){
+			//rethrow the exception to the caller
+			throw(new \Exception($exception->getFile(),	0,	$exception));
+		}
+		catch(UException("Unable to construct Author Id", 0, $exception = $exception));
+		// rethrow to the caller
+		throw (new UnexpectedValueException("Unable to construct Author Id", 0, $exception));
 	}
 
 	/**
